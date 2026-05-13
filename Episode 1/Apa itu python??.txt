@@ -1,0 +1,16 @@
+==========================================
+EPISODE 01 - APA ITU PYTHON?
+Sumber: Kelas Terbuka
+==========================================
+
+Python adalah bahasa pemrograman yang:
+1. High-Level (Mudah dibaca manusia)
+2. Interpreted (Dijalankan baris per baris)
+3. Serbaguna (Data Science, Web, AI)
+
+Contoh Kode:
+print("Halo Dunia!")
+
+Cara Menjalankan:
+Buka terminal/cmd, ketik: python main.py
+==========================================
