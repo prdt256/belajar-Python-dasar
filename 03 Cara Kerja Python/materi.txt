@@ -1,0 +1,28 @@
+==========================================
+EPISODE 03 - CARA KERJA PROGRAM & BYTECODE
+Sumber: Kelas Terbuka
+==========================================
+
+Proses Eksekusi Python:
+1. Source Code: File .py yang kita tulis.
+2. Kompilasi: Python mengubah .py menjadi Bytecode (.pyc).
+3. PVM: Bytecode dijalankan oleh Python Virtual Machine.
+
+Keuntungan Bytecode:
+- Eksekusi program jadi lebih cepat karena tidak perlu 
+  menerjemahkan ulang source code dari awal.
+- Bytecode biasanya disimpan di folder __pycache__.
+
+Cara Compile Manual:
+python -m py_compile nama_file.py
+==========================================
+
+Bagian	Penjelasan
+python	Memanggil program utama Python (Interpreternya).
+-m	Singkatan dari Module. Artinya kita mau menjalankan sebuah library bawaan Python sebagai script.
+py_compile	Nama module bawaan Python yang tugas khususnya adalah mengubah kode sumber (.py) menjadi bytecode (.pyc).
+main.py	Argumen atau target file yang ingin kamu ubah jadi bytecode.
+
+==========================================
+
+Kompilasi di Python (Bytecode) bukan untuk mempercepat kalkulasi matematika atau logika, melainkan untuk mempercepat proses startup program dengan melewati tahap penerjemahan teks ke instruksi mesin Python (PVM).

@@ -1,0 +1,36 @@
+<!-- dokumentasi_visual/episodes/ep03.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>Episode 03: Cara Kerja Program</h1>
+        <hr>
+        
+        <section>
+            <h3>Alur Eksekusi Python</h3>
+            <p>Berbeda dengan bahasa C yang di-compile ke bahasa mesin, Python memiliki alur unik:</p>
+            <ol>
+                <li><strong>Source Code (.py)</strong>: Kode yang kita ketik.</li>
+                <li><strong>Bytecode (.pyc)</strong>: Kode perantara yang lebih "dimengerti" oleh mesin Python.</li>
+                <li><strong>PVM (Python Virtual Machine)</strong>: Komponen yang menjalankan bytecode tersebut ke sistem operasi.</li>
+            </ol>
+        </section>
+
+        <section class="code-box">
+            <h3>Cara Cek Bytecode:</h3>
+            <p>Coba ketik ini di terminal untuk melihat keajaiban bytecode:</p>
+            <pre><code>python -m py_compile main.py</code></pre>
+            <p>Setelah itu, cek folder <code>__pycache__</code> di direktori kamu.</p>
+        </section>
+
+        <footer>
+            <p>Status: Paham Jeroan Python ✅</p>
+        </footer>
+    </div>
+</body>
+</html>

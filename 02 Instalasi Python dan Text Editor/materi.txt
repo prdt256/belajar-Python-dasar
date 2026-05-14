@@ -1,0 +1,20 @@
+==========================================
+EPISODE 02 - INSTALASI & PERSIAPAN
+Sumber: Kelas Terbuka
+==========================================
+
+Langkah-langkah Persiapan:
+1. Download Python di python.org (Pilih versi terbaru).
+2. Install Visual Studio Code (VS Code) sebagai Code Editor.
+3. Install Ekstensi "Python" dari Microsoft di dalam VS Code.
+
+Cara Menjalankan Program di Terminal:
+1. Buka Terminal/Command Prompt.
+2. Arahkan ke folder file berada.
+3. Ketik perintah: python nama_file.py
+   Contoh: python main.py
+
+Kunci Utama:
+Python adalah bahasa interpreter, artinya dia membaca
+kode satu per satu baris secara berurutan.
+==========================================
