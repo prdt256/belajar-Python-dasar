@@ -1,0 +1,19 @@
+==========================================
+EPISODE 04 - MENGENAL VARIABEL
+Sumber: Kelas Terbuka
+==========================================
+
+Definisi: 
+Variabel adalah sebuah nama yang mewakili sebuah nilai 
+yang disimpan di dalam memori komputer.
+
+Aturan Penamaan Variabel:
+1. Tidak boleh diawali angka (Contoh: 10nilai -> SALAH).
+2. Tidak boleh menggunakan spasi (Contoh: nilai saya -> SALAH).
+3. Boleh menggunakan underscore (_) atau huruf besar-kecil.
+4. Python bersifat Case-Sensitive (nilai != Nilai).
+
+Keunikan Python (Dynamic Typing):
+Kita tidak perlu mendeklarasikan tipe data (seperti int atau float).
+Cukup tulis nama_variabel = nilai.
+==========================================

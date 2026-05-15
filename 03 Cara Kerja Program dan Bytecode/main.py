@@ -19,12 +19,12 @@ with open("raksasa.py", "w") as f:
     for i in range(50000):
         f.write(f"var_{i} = {i}\n")
     f.write("print('File raksasa siap!')")
-
 # Python bekerja dengan cara:
 # 1. Source Code (.py) -> 2. Bytecode (.pyc) -> 3. PVM (Python Virtual Machine)
 
 print(time.time() - start_time, "detik")
-
-# Catatan: 
-# Untuk meng-compile manual ke bytecode, ketik di terminal:
-# python -m py_compile main.py
+""" 
+Catatan: 
+Untuk meng-compile manual ke bytecode, ketik di terminal:
+python -m py_compile main.py
+"""

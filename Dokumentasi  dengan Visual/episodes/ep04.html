@@ -1,0 +1,85 @@
+<!-- dokumentasi_visual/episodes/ep04.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 04 - Mengenal Variabel</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Tambahan style khusus tabel biar makin ganteng */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #1e293b;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #334155;
+        }
+        th {
+            background-color: #38bdf8;
+            color: #0f172a;
+        }
+        .valid { color: #4caf50; font-weight: bold; }
+        .invalid { color: #f44336; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>📦 Episode 04: Mengenal Variabel</h1>
+        <hr>
+        
+        <section>
+            <h3>Apa itu Variabel?</h3>
+            <p>Variabel adalah sebuah nama atau "label" yang mewakili suatu nilai yang disimpan di dalam memori komputer. Bayangkan variabel seperti sebuah kotak wadah tempat kamu menyimpan barang/data agar bisa dipanggil lagi nanti.</p>
+            <p>Di Python, tanda sama dengan (<code>=</code>) disebut sebagai <strong>Assignment Operator</strong>, yang artinya memasukkan nilai dari sebelah kanan ke dalam variabel di sebelah kiri.</p>
+        </section>
+
+        <section>
+            <h3>Aturan Penamaan Variabel</h3>
+            <p>Kita tidak bisa asal memberikan nama pada variabel. Python memiliki aturan ketat:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>✅ Valid (Bisa Dipakai)</th>
+                        <th>❌ Invalid (Sebab Error)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="valid">nilai_saya = 10</span> (Menggunakan underscore)</td>
+                        <td><span class="invalid">nilai saya = 10</span> (Ada spasi)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="valid">juta10 = 10000000</span> (Angka di belakang)</td>
+                        <td><span class="invalid">10juta = 10000000</span> (Diawali angka)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="valid">data = 5</span></td>
+                        <td><span class="invalid">da-ta = 5</span> (Menggunakan tanda strip)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Keunikan Python: Dynamic Typing & Re-assignment</h3>
+            <p>Python tidak memerlukan deklarasi tipe data di awal. Selain itu, nilai variabel bisa ditimpa dengan nilai baru kapan saja (Re-assignment).</p>
+            <pre><code># Mula-mula nilai a adalah 10
+a = 10
+print(a) # Hasilnya: 10
+
+# Nilai a ditimpa menjadi 7
+a = 7
+print(a) # Hasilnya: 7</code></pre>
+        </section>
+
+        <footer>
+            <p>Status: Lulus Episode 04 ✅</p>
+        </footer>
+    </div>
+</body>
+</html>
