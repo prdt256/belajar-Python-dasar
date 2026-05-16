@@ -15,7 +15,7 @@ Materi dalam repositori ini sepenuhnya mengikuti kurikulum dari channel YouTube 
 - [x] **Episode 03** - Cara Kerja Program dan Bytecode
 - [x] **Episode 04** - Mengenal Variabel
 - [x] **Episode 05** - Tipe Data
-- [] **Episode 06** - Casting Tipe Data
+- [ ] **Episode 06** - Casting Tipe Data
 - [ ] *... materi selanjutnya akan terus diperbarui*
 
 ---
