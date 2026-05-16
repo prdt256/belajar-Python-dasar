@@ -14,7 +14,8 @@ Materi dalam repositori ini sepenuhnya mengikuti kurikulum dari channel YouTube 
 - [x] **Episode 02** - Instalasi Python dan Text Editor
 - [x] **Episode 03** - Cara Kerja Program dan Bytecode
 - [x] **Episode 04** - Mengenal Variabel
-- [ ] **Episode 05** - Tipe Data
+- [x] **Episode 05** - Tipe Data
+- [] **Episode 06** - Casting Tipe Data
 - [ ] *... materi selanjutnya akan terus diperbarui*
 
 ---

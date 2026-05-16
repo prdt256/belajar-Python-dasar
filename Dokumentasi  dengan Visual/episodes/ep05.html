@@ -1,0 +1,88 @@
+<!-- dokumentasi_visual/episodes/ep05.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 05 - Tipe Data</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #1e293b;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #334155;
+        }
+        th {
+            background-color: #ffde57;
+            color: #0f172a;
+        }
+        .highlight { color: #38bdf8; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>🐍 Episode 05: Tipe Data Dasar & Khusus</h1>
+        <hr>
+        
+        <section>
+            <h3>Mengenal Tipe Data</h3>
+            <p>Tipe data adalah jenis-jenis data yang bisa dimasukkan ke dalam variabel dan diproses oleh Python. Untuk mengecek jenis tipe data suatu variabel, kita bisa menggunakan fungsi bawaan <code class="highlight">type()</code>.</p>
+        </section>
+
+        <section>
+            <h3>Tabel Tipe Data Dasar</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipe Data</th>
+                        <th>Class</th>
+                        <th>Penjelasan</th>
+                        <th>Contoh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Integer</td>
+                        <td class="highlight">int</td>
+                        <td>Angka bulat tanpa desimal</td>
+                        <td><code>10</code>, <code>-5</code></td>
+                    </tr>
+                    <tr>
+                        <td>Float</td>
+                        <td class="highlight">float</td>
+                        <td>Angka pecahan/desimal</td>
+                        <td><code>3.14</code>, <code>1.5</code></td>
+                    </tr>
+                    <tr>
+                        <td>String</td>
+                        <td class="highlight">str</td>
+                        <td>Kumpulan karakter/teks</td>
+                        <td><code>"Ucup"</code>, <code>"10"</code></td>
+                    </tr>
+                    <tr>
+                        <td>Boolean</td>
+                        <td class="highlight">bool</td>
+                        <td>Nilai logika (Benar/Salah)</td>
+                        <td><code>True</code>, <code>False</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Tipe Data Khusus & C-Types</h3>
+            <p>Selain tipe data dasar, Python juga mendukung bilangan matematika <code class="highlight">complex</code> (seperti 5 + 6j) dan tipe data murni dari bahasa C dengan memanfaatkan modul <code class="highlight">ctypes</code> untuk kebutuhan komputasi performa tinggi.</p>
+        </section>
+
+        <footer>
+            <p>Status: Paham Jenis Data ✅</p>
+        </footer>
+    </div>
+</body>
+</html>

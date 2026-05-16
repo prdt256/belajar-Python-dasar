@@ -1,0 +1,18 @@
+==========================================
+EPISODE 05 - TIPE DATA
+Sumber: Kelas Terbuka
+==========================================
+
+Tipe Data Dasar di Python:
+1. Integer (int)  : Angka satuan/bulat. Contoh: 10, -5
+2. Float (float)  : Angka desimal. Contoh: 3.14, 0.5
+3. String (str)   : Teks/karakter, diapit tanda petik "". Contoh: "Halo"
+4. Boolean (bool) : Logika biner. Hanya bernilai True atau False.
+
+Tipe Data Khusus:
+- Complex: Bilangan matematika kompleks (Real & Imajiner). Contoh: 5 + 6j
+
+Tipe Data C-Types:
+- Python bisa mengimpor tipe data dari bahasa C (seperti c_double, c_int, c_char) 
+  menggunakan library `ctypes`. Berguna jika butuh presisi atau interaksi dengan bahasa C.
+==========================================
