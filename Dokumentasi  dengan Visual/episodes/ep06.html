@@ -1,0 +1,60 @@
+<!-- dokumentasi_visual/episodes/ep06.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 06 - Casting Tipe Data</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .alert-box {
+            background-color: #7f1d1d;
+            border-left: 5px solid #ef4444;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .success-box {
+            background-color: #064e3b;
+            border-left: 5px solid #10b981;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        ul li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>🔄 Episode 06: Casting Tipe Data</h1>
+        <hr>
+        
+        <section>
+            <h3>Apa itu Casting Tipe Data?</h3>
+            <p>Casting adalah mekanisme untuk mengubah jenis data dari satu tipe ke tipe lainnya. Kita menggunakan fungsi dasar seperti <code>int()</code>, <code>float()</code>, <code>str()</code>, dan <code>bool()</code>.</p>
+        </section>
+
+        <section class="success-box">
+            <h3>💡 Aturan Logika Boolean (bool)</h3>
+            <ul>
+                <li><strong>False:</strong> Hanya terjadi jika nilainya adalah angka <code>0</code>, desimal <code>0.0</code>, atau string kosong <code>""</code>.</li>
+                <li><strong>True:</strong> Terjadi pada angka selain 0 (termasuk angka negatif) dan string yang memiliki isi karakter sekecil apa pun (termasuk spasi).</li>
+            </ul>
+        </section>
+
+        <section class="alert-box">
+            <h3>⚠️ Potensi Error (ValueError) pada String</h3>
+            <p>Berhati-hatilah saat melakukan casting dari String ke tipe angka:</p>
+            <ul>
+                <li><code>int("10")</code> ➡️ <strong>Aman</strong> (menjadi 10).</li>
+                <li><code>int("10.5")</code> ➡️ <strong style="color: #fca5a5;">ERROR!</strong> String desimal tidak bisa langsung dipaksa jadi Integer bulat.</li>
+                <li><code>int("Ucup")</code> ➡️ <strong style="color: #fca5a5;">ERROR!</strong> Teks huruf tidak bisa diubah menjadi angka.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Status: Lulus Episode 06 ✅</p>
+        </footer>
+    </div>
+</body>
+</html>
