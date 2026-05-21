@@ -16,7 +16,9 @@ Materi dalam repositori ini sepenuhnya mengikuti kurikulum dari channel YouTube 
 - [x] **Episode 04** - Mengenal Variabel
 - [x] **Episode 05** - Tipe Data
 - [x] **Episode 06** - Casting Tipe Data
-- [ ] **Episode 07** - Mengambil Input Data dari User
+- [x] **Episode 07** - Mengambil Input Data dari User
+- [ ] **Episode 08** - Operator Aritmatika
+- [ ] **Episode 09** - Operator Perbandingan
 - [ ] *... materi selanjutnya akan terus diperbarui*
 
 ---

@@ -1,0 +1,59 @@
+<!-- dokumentasi_visual/episodes/ep06.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 07 - Mengambil Input Data</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .flow-box {
+            background-color: #1e293b;
+            border: 2px dashed #38bdf8;
+            padding: 15px;
+            text-align: center;
+            font-family: monospace;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .warning-text {
+            color: #fbbf24;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>⌨️ Episode 07: Mengambil Input Data dari User</h1>
+        <hr>
+        
+        <section>
+            <h3>Fungsi Utama: <code>input()</code></h3>
+            <p>Fungsi ini akan menghentikan jalannya program sejenak dan menunggu user mengetikkan sesuatu di terminal lalu menekan tombol <strong>Enter</strong>.</p>
+        </section>
+
+        <section>
+            <h3>⚠️ Hukum Mutlak <code>input()</code></h3>
+            <p>Apapun yang diketik oleh user, baik itu nama, angka bulat, angka desimal, bahkan kata "True/False", <span class="warning-text">Python akan selalu membacanya sebagai STRING (Teks)</span>.</p>
+            
+            <div class="flow-box">
+                User Ketik: 10 ➡️ fungsi input() ➡️ Hasil di Python: "10" (String)
+            </div>
+        </section>
+
+        <section>
+            <h3>Cara Mengambil Input Angka (Kombinasi Casting)</h3>
+            <p>Jika ingin melakukan operasi aritmatika pada data inputan, kita wajib membungkus fungsi input dengan tipe data yang diinginkan:</p>
+            <pre><code># Mengambil input angka bulat
+usia = int(input("Masukkan usia: "))
+
+# Mengambil input angka desimal
+tinggi = float(input("Masukkan tinggi badan (m): "))</code></pre>
+        </section>
+
+        <footer>
+            <p>Status: Program Interaktif Berhasil ✅</p>
+        </footer>
+    </div>
+</body>
+</html>

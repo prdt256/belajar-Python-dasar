@@ -1,0 +1,15 @@
+==========================================
+EPISODE 07 - MENGAMBIL INPUT DATA
+Sumber: Kelas Terbuka
+==========================================
+
+1. Fungsi input() digunakan untuk mengambil ketikan dari user lewat terminal.
+2. Sifat Mutlak input(): 
+   Semua data yang masuk lewat fungsi input() PASTI bertipe String (str), 
+   meskipun user mengetikkan angka.
+3. Solusi Input Angka:
+   Harus dikombinasikan dengan fungsi casting.
+   Contoh: int(input("Masukkan angka: "))
+4. Aturan Input Boolean:
+   Gunakan angka 0 atau 1, lalu casting berjenjang: bool(int(input())).
+==========================================
