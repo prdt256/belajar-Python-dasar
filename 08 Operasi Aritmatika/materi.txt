@@ -1,0 +1,20 @@
+==========================================
+EPISODE 08 - OPERASI ARITMATIKA
+Sumber: Kelas Terbuka
+==========================================
+
+Daftar Operator di Python:
+1. +  -> Penjumlahan
+2. -  -> Pengurangan
+3. * -> Perkalian
+4. /  -> Pembagian (Hasilnya selalu Float)
+5. ** -> Eksponen (Pangkat)
+6. %  -> Modulus (Sisa hasil bagi)
+7. // -> Floor Division (Pembagian bulat ke bawah)
+
+Urutan Prioritas Operasi (Operational Precedence):
+1. Tanda Kurung   : ()
+2. Eksponen       : **
+3. Perkalian dsb  : *, /, %, //
+4. Penjumlahan dsb: +, -
+==========================================

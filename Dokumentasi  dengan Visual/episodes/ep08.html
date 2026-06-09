@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 08 - Operasi Aritmatika</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .priority-list {
+            background-color: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #ffde57;
+        }
+        ol li { margin-bottom: 10px; font-size: 1.1em; }
+        .code-inline { background-color: #334155; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>🧮 Episode 08: Operasi Aritmatika</h1>
+        <hr>
+        
+        <section>
+            <h3>Tiga Operator Unik Python</h3>
+            <p>Selain operator standar sekolah, Python punya 3 operator andalan yang sangat berguna:</p>
+            <ul>
+                <li><span class="code-inline">**</span> <strong>Eksponen:</strong> Digunakan untuk perpangkatan. Contoh: <code>2 ** 3 = 8</code>.</li>
+                <li><span class="code-inline">%</span> <strong>Modulus:</strong> Mencari sisa dari hasil pembagian. Sangat berguna untuk menentukan bilangan ganjil/genap.</li>
+                <li><span class="code-inline">//</span> <strong>Floor Division:</strong> Pembagian yang hasilnya langsung dibulatkan ke bawah (menghilangkan angka di belakang koma).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>KABATAKU Matematika Python</h3>
+            <p>Jika dalam satu baris kode terdapat banyak operator, Python akan mengeksekusinya berdasarkan urutan kasta/prioritas berikut:</p>
+            <div class="priority-list">
+                <ol>
+                    <li>Operasi di dalam kurung <code>( )</code></li>
+                    <li>Perpangkatan / Eksponen <code>**</code></li>
+                    <li>Perkalian, Pembagian, Modulus, Floor Division <code>*</code>, <code>/</code>, <code>%</code>, <code>//</code></li>
+                    <li>Penjumlahan dan Pengurangan <code>+</code>, <code>-</code></li>
+                </ol>
+            </div>
+        </section>
+
+        <section style="background-color: #0f172a; border: 1px solid #38bdf8; padding: 15px; border-radius: 8px;">
+    <h3>🌡️ Proyek Kecil: Konversi Suhu</h3>
+    <p>Menggabungkan <strong>Input</strong>, <strong>Casting</strong>, dan <strong>Aritmatika</strong>:</p>
+            <ul style="list-style-type: '👉 ';">
+                <li>Celcius ke Reamur: <code>(4/5) * C</code></li>
+                <li>Celcius ke Fahrenheit: <code>(9/5) * C + 32</code></li>
+                <li>Celcius ke Kelvin: <code>C + 273</code></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Status: Pondasi Matematika Aman ✅</p>
+        </footer>
+    </div>
+</body>
+</html>
