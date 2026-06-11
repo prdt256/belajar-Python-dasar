@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Episode 09 - Operasi Komparasi</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background-color: #1e293b; }
+        th, td { padding: 12px; text-align: left; border: 1px solid #334155; }
+        th { background-color: #38bdf8; color: #0f172a; }
+        .bool-true { color: #4caf50; font-weight: bold; }
+        .bool-false { color: #f44336; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Kembali ke Dashboard</a>
+        <h1>⚖️ Episode 09: Operasi Komparasi</h1>
+        <hr>
+        
+        <section>
+            <h3>Hasil Akhir Komparasi</h3>
+            <p>Operasi komparasi selalu menghasilkan tipe data <strong>Boolean</strong>, yaitu <span class="bool-true">True</span> atau <span class="bool-false">False</span>.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Operator</th>
+                        <th>Arti</th>
+                        <th>Contoh Kode</th>
+                        <th>Hasil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>==</code></td>
+                        <td>Sama Dengan</td>
+                        <td><code>4 == 2</code></td>
+                        <td><span class="bool-false">False</span></td>
+                    </tr>
+                    <tr>
+                        <td><code>!=</code></td>
+                        <td>Tidak Sama Dengan</td>
+                        <td><code>4 != 2</code></td>
+                        <td><span class="bool-true">True</span></td>
+                    </tr>
+                    <tr>
+                        <td><code>is</code></td>
+                        <td>Identitas Memori Sama</td>
+                        <td><code>x is y</code></td>
+                        <td><span class="bool-true">True / False</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>⚠️ Perbedaan <code>==</code> dengan <code>is</code></h3>
+            <p>Operator <code>==</code> membandingkan <strong>NILAI</strong>-nya, sedangkan operator <code>is</code> membandingkan <strong>ALAMAT MEMORI</strong>-nya (apakah mereka objek yang sama persis atau bukan).</p>
+        </section>
+
+        <footer>
+            <p>Status: Logika Komparasi Aman ✅</p>
+        </footer>
+    </div>
+</body>
+</html>

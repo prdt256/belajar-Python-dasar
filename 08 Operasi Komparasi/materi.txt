@@ -1,0 +1,23 @@
+==========================================
+EPISODE 09 - OPERASI KOMPARASI
+Sumber: Kelas Terbuka
+==========================================
+
+Setiap operasi komparasi menghasilkan nilai BOOLEAN (True / False).
+
+Daftar Operator Komparasi Literal:
+1. >  : Lebih besar dari
+2. <  : Lebih kecil dari
+3. >= : Lebih besar dari atau sama dengan
+4. <= : Lebih kecil dari atau sama dengan
+5. == : Sama dengan (membandingkan nilai)
+6. != : Tidak sama dengan
+
+Operator Komparasi Identitas (Object Identity):
+1. is     : Membandingkan apakah dua variabel menunjuk ke objek/memori yang SAMA.
+2. is not : Membandingkan apakah dua variabel menunjuk ke objek/memori yang BERBEDA.
+
+Catatan Penting:
+Jangan gunakan 'is' untuk membandingkan nilai literal biasa (seperti angka konstan), 
+gunakan '=='. 'is' khusus untuk membandingkan identitas objek di memori.
+==========================================
